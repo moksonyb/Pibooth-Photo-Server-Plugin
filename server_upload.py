@@ -33,15 +33,3 @@ def upload_picture(file_path, expiration, token, server_url):
     else:
         print("Failed to upload picture. Status code:", response.status_code)
         return None
-
-# Example usage
-file_path = "path/to/your/image.png"
-expiration = 24  # Expiration time in hours
-token = "your_api_token"
-server_url = "https://your_server_url.com"
-
-uploaded_image_url = upload_picture(file_path, expiration, token, server_url)
-if uploaded_image_url:
-    print("Image uploaded successfully. URL:", uploaded_image_url)
-else:
-    print("Failed to upload image.")
