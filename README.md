@@ -1,8 +1,7 @@
-
 # Pibooth QR Server Plugin
 ``pibooth-qr-server`` is a plugin for the **[pibooth](https://pypi.org/project/pibooth/)** application.
 
-It adds an automatic server upload functionality that integrates with the ``pibooth-qrcode`` plugin to display the generated link as a QR code and uses the ``Pibooth Photo Server`` as a backend.
+It adds an automatic server upload functionality that integrates with the ``pibooth-qrcode`` plugin to display the generated link as a QR code and uses the [``Pibooth Photo Server``](https://github.com/moksonyb/Pibooth-Photo-Server) as a backend.
 
 
 ## Installation
